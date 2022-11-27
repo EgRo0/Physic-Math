@@ -8,7 +8,6 @@ import { TableListComponent } from '../../table-list/table-list.component';
 import { MathComponent } from '../../math/math.component';
 import { PhysicsComponent } from '../../physics/physics.component';
 
-import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRippleModule} from '@angular/material/core';
@@ -35,8 +34,7 @@ import { HomeComponent } from 'app/home/home.component';
     UserProfileComponent,
     TableListComponent,
     MathComponent,
-    PhysicsComponent,
-    UpgradeComponent,
+    PhysicsComponent
   ]
 })
 
