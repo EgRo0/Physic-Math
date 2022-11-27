@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { TableListComponent } from '../../table-list/table-list.component';
 import { MathComponent } from '../../math/math.component';
 import { PhysicsComponent } from '../../physics/physics.component';
 
@@ -32,7 +31,6 @@ import { HomeComponent } from 'app/home/home.component';
   declarations: [
     HomeComponent,
     UserProfileComponent,
-    TableListComponent,
     MathComponent,
     PhysicsComponent
   ]
