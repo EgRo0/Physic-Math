@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { MathComponent } from '../../math/math.component';
 import { PhysicsComponent } from '../../physics/physics.component';
 
 import {MatButtonModule} from '@angular/material/button';
@@ -13,7 +12,9 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
+import {MatTabsModule} from '@angular/material/tabs';
 import { HomeComponent } from 'app/home/home.component';
+import { MathModule } from 'app/math/math.module';
 
 @NgModule({
   imports: [
@@ -27,11 +28,12 @@ import { HomeComponent } from 'app/home/home.component';
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
+    MatTabsModule,
+    MathModule
   ],
   declarations: [
     HomeComponent,
     UserProfileComponent,
-    MathComponent,
     PhysicsComponent
   ]
 })
